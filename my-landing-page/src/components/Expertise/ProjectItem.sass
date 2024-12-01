@@ -5,3 +5,44 @@
     width: 405px
     height: 370px
     border-radius: 10px
+    display: flex
+    flex-direction: column
+    align-items: start
+    justify-content: center
+    gap: 16px
+    cursor: pointer
+    &:hover
+        box-shadow: 0px 3px 0px 0px #5E3BEE
+        transition: all 0.3s ease
+
+    &__icon
+        box-sizing: border-box
+        width: 100%
+        display: flex
+        align-items: center
+        justify-content: start
+        margin-bottom: 21px
+        background-color: #fff
+        border-radius: 10px
+        box-shadow: 0px 10px 30px 0px rgba(13, 38, 76, 0.10)
+        width: 80px
+        height: 80px
+        padding: 13px
+
+        & img
+            width: 53px
+            height: 53px
+
+    &__title
+        font-size: 30px
+        font-weight: 700
+        line-height: 140%
+        margin-bottom: 32px
+        margin-top: 0
+    
+    &__description
+        font-size: 20px
+        font-weight: 400
+        line-height: 150%
+        padding: 0
+        margin: 0

@@ -1,21 +1,21 @@
 const expertises = [
     {
-        icon: 'strategy-direction.svg',
+        icon: 'strategy_direction.svg',
         title: 'Strategy & Direction',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.'
     },
     {
-        icon: 'product-design.svg',
+        icon: 'branding_logo.svg',
         title: 'Branding & Logo',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.'
     },
     {
-        icon: 'web-design.svg',
+        icon: 'ux_ux_design.svg',
         title: 'UI & UX Design',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.'
     },
     {
-        icon: 'development.svg',
+        icon: 'webflow_development.svg',
         title: 'Webflow Development',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.'
     }

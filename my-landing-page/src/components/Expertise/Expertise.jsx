@@ -12,7 +12,7 @@ const Expertise = () => {
             <div className="expertise__projects">
                 {
                     expertises.map((expertise, index) => (
-                        <ProjectItem key={index} title={expertise.title} description={expertise.description} />
+                        <ProjectItem key={index} {...expertise} />
                     ))
                 }
             </div>
