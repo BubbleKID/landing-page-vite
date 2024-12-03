@@ -4,6 +4,9 @@ import Hero from './components/Hero/Hero';
 import Expertise from './components/Expertise/Expertise';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
+import Feedback from './components/Feedback/Feedback';
+import ContactForm from './components/ContactForm/ContactForm';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,8 +16,9 @@ function App() {
         <Expertise />
         <AboutMe />
         <Portfolio />
-        {/* <AboutMe />
-        <AboutMe /> */}
+        <Feedback />
+        <ContactForm />
+        <Footer />
     </div>
   )
 }
