@@ -1,6 +1,6 @@
 import NavMenuItems from "./NavMenuItems";
 import NavBarLogo from "./NavBarLogo.jsx";
-import ContactBtn from "./ContactBtn";
+import Button from "../Button/Button";
 import "./NavBar.sass";
 
 export default function NavBar() {
@@ -8,7 +8,7 @@ export default function NavBar() {
         <nav className="navbar">
             <NavBarLogo />
             <NavMenuItems />
-            <ContactBtn />
+            <Button className="contact-btn" variant="outlined" color="primary" size="lg">Contact Me</Button>
         </nav>
     );
 }

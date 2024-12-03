@@ -6,7 +6,6 @@ import AboutMe from './components/AboutMe/AboutMe';
 function App() {
   return (
     <div className="app">
-       Test Landing Page
         <NavBar />
         <Hero />
         <Expertise />

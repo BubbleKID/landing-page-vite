@@ -1,5 +1,6 @@
 import './Hero.sass';
 import heroImage from '../../assets/hero-image.png';
+import Button from '../Button/Button';
 
 const Hero = () => {
     return (
@@ -16,9 +17,9 @@ const Hero = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
                 </p>
                 
-                <button className="hero__content__contact-btn">
+                <Button className="hero__content__contact-btn" variant="contained" color="primary" size="lg">
                     Get In Touch
-                </button>
+                </Button>
             </div>
             <div className="hero-image">
                 <img src={heroImage} width={917} height={729} alt="hero" />
