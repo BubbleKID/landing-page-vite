@@ -20,7 +20,8 @@ const ProjectCard = ({ project }) => {
                        
                     </a>
                     <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.33341 2H17.6667V15.3333M17.6667 2L1.66675 18L17.6667 2Z" stroke="#006B6A" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4.33341 2H17.6667V15.3333M17.6667 2L1.66675 18L17.6667 2Z" stroke="#006B6A" 
+                        strokeWidth="2.66667" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                 </div>
             </div>
