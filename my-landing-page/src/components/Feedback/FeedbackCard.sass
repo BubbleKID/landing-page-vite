@@ -1,17 +1,37 @@
 .feedback-card 
+    display: flex
+    flex-direction: column
     border-radius: 10px
     border: 1px solid #006B6A
     border-radius: 8px
     padding: 42px
+    gap: 42px
 
+    &__description
+        font-size: 21px
+        font-weight: 400
+        margin: 0
 
     &__author-container
         display: flex
         flex-direction: row
         gap: 10px
+        & img
+            margin-right: 21px
 
     &__author
         display: flex
         flex-direction: column
-        gap: 10px
+         
+        gap: 0
+
+    &__author-name
+        font-size: 21px
+        font-weight: 700
+        margin: 0
     
+    &__author-company
+        font-size: 21px
+        font-weight: 400
+        margin: 0
+

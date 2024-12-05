@@ -4,10 +4,10 @@ import './Feedback.sass';
 const Feedback = () => {
     return (
         <div className="feedback">
-            <h2>
-                <p>Client Feedback</p>
-                <h1>Customer testimonials</h1>
-            </h2>
+            <div className="feedback__title-container">
+                <p className="feedback__subtitle">Client Feedback</p>
+                <h1 className="feedback__title">Customer testimonials</h1>
+            </div>
             <div className="feedback__cards">
                 {
                     feedbacks.map((feedback) => (
