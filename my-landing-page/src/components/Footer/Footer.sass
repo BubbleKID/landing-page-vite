@@ -1,0 +1,66 @@
+$footer-bg: #F5FCFF
+$text-primary: #333
+$text-secondary: #666
+$border-color: #ddd
+$heart-color: #ff0000
+
+.footer
+    background-color: $footer-bg
+    padding: 2rem 0
+    width: 100%
+    box-sizing: border-box
+
+    &__content
+        max-width: 1920px
+        margin: 0 auto
+        padding: 106px 85px
+
+    &__main
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 106px
+
+    &__logo
+        width: 150px
+        height: 40px
+
+    &__nav
+        display: flex
+        gap: 42px
+
+        & a
+            text-decoration: none
+            color: $text-primary
+
+    &__bottom
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding-top: 44px
+        border-top: 1px solid $border-color
+
+    &__credit
+        color: $text-primary
+
+    &__links
+        display: flex
+        gap: 16px
+        
+        & a
+            color: $text-primary
+            text-decoration: none
+
+    &__social-links
+        display: flex
+        justify-content: flex-end
+        gap: 16px
+        align-items: center
+
+        & a
+            color: $text-primary
+            text-decoration: none
+            font-size: 16px
+
+    &__heart
+        color: $heart-color
